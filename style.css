@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%; /* 16px x 62.5 = 10px = 1rem */
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 body {
@@ -34,11 +34,21 @@ footer {
   color: #ffffff;
 }
 /* Common */
+
 a {
   text-decoration: none;
 }
 a:hover {
   color: #ff8000;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
 }
 /* Header */
 header a {
@@ -58,4 +68,36 @@ a.brand {
 }
 .row.center {
   justify-content: center;
+}
+/* Image */
+img {
+  border-radius: 0.5rem;
+}
+img.medium {
+  max-width: 100%;
+  width: 300px;
+  object-fit: cover;
+  height: 400px;
+}
+
+/* Card */
+.card {
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.card-body {
+  padding: 1rem;
+}
+.card-body > * {
+  margin-bottom: 0.5rem;
+}
+.price {
+  font-size: 2rem;
+}
+/* Rating */
+.rating span {
+  color: #f0c040;
+  margin: 0.1rem;
 }
