@@ -1,0 +1,26 @@
+{
+  "name": "amazon-clone",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "- HTML 5 & CSSS \r - React JS front end \r - Redux to manage state \r - Node JS \r - MongoDB\r - JSON Web Tokens  to authenticate users and HTTP requests \r - bcrypt.js\r - Heroku \r - Payment API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanz-creation/Amazon-Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanz-creation/Amazon-Clone/issues"
+  },
+  "homepage": "https://github.com/kanz-creation/Amazon-Clone#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
