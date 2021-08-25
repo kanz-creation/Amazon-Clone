@@ -8,4 +8,4 @@
 - JSON Web Tokens  to authenticate users and HTTP requests 
 - bcrypt.js
 - Heroku 
-- Payment API
+- Payment API (Using Stripe)
