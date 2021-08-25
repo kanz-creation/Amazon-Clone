@@ -1,4 +1,4 @@
-# Amazon-Clone
+# E-Commerce Website
 
 - HTML 5 & CSSS 
 - React JS front end 
