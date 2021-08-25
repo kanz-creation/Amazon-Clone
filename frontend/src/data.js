@@ -50,7 +50,7 @@ const data = {
     },
     {
       _id: '5',
-      name: 'Puma Slim Pant',
+      name: 'MARIA',
       category: 'Pants',
       image: '/images/product1.jpg',
       price: 65,
@@ -62,7 +62,7 @@ const data = {
     },
     {
       _id: '6',
-      name: 'Adidas Fit Pant',
+      name: 'maria b',
       category: 'Pants',
       image: '/images/product3.jpg',
       price: 139,
