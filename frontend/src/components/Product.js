@@ -1,8 +1,8 @@
 import React from 'react';
 import Rating from './Rating';
 
-export default function Product(props) {
-  const { product } = props;
+export default function Product({ product }) {
+  // const { product } = props; //why not destructure props inside the functions param like this Product({ product }) ?
   return (
     <div>
       <div key={product._id} className="card">

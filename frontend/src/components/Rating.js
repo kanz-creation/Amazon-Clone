@@ -1,7 +1,8 @@
 import React from 'react';
 
-export default function Rating(props) {
-  const { rating, numReviews } = props;
+
+//Why not use arrow function to make functional component?
+export default function Rating({ rating, numReviews }) {
   return (
     <div className="rating">
       <span>
